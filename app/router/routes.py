@@ -10,3 +10,4 @@ minecraft_service_api.init_app(minecraft_service_bp)
 
 minecraft_service_api.add_resource(TestReturn, "/test_return")
 minecraft_service_api.add_resource(TestReturn2, "/test_return2")
+minecraft_service_api.add_resource(StartServer, "/run")
